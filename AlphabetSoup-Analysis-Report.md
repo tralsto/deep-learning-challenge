@@ -1,5 +1,5 @@
 1. Overview of the analysis: Explain the purpose of this analysis.
-    - The purpose of this analysis is to use the previous applicant data from the CSV file to build a model to help predict if new applicants will receive funding from the AlphabetSoup organization.
+- The purpose of this analysis is to use the previous applicant data from the CSV file to build a model to help predict if new applicants will receive funding from the AlphabetSoup organization.
 
 2. Results: Using bulleted lists and images to support your answers, address the following questions:
     Data Preprocessing
@@ -24,3 +24,4 @@
 
 
 3. Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+- The overall results of this deep learning model is an accuracy of about just over 73%. This is not ideal as optimizations should take the model to a 75% accuracy rate. I was unable to figure out how to change my model enough to gain the 2% to reach target model performance. The only recommendation I could think of is maybe performing a Random Forest model on this data as it is a bit simpler and might allow for easier interpretation.
